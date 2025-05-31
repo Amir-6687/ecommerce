@@ -567,6 +567,11 @@ footer {
     flex-direction: column;
   }
 
+  .nsImg {
+    height: 400px; /* تنظیم ارتفاع به 400px یا مقدار دلخواه دیگر */
+    object-fit: cover; /* برای جلوگیری از تغییر نسبت تصویر */
+  }
+
   .nsItem:nth-child(2) {
     padding: 50px;
   }
